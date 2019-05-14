@@ -18,6 +18,7 @@
     <view>自助零售</view>
   </movable-view>
 </view>
+
 <view class='title'>
   <image class='title-logs'/>
   <text class='title-text'>货架业务</text>

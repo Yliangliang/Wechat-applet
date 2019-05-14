@@ -92,12 +92,21 @@
 }
 .title{
   margin-top:209rpx;
+  height: 20rpx;
 }
 .title1{
   margin-top:209rpx;
   height: 25rpx;
+  position:relative;
 }
 .title1 image{
   height: 100%;
   width: 100%;
+}
+.title1-text{
+  position: absolute;
+  top: 0rpx;
+  left:50%;
+  margin-left:-70rpx; 
+  
 }
