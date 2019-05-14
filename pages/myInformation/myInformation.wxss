@@ -1,0 +1,27 @@
+.myIcon{
+  height: 276rpx;
+  background-color: #FFFFFF;
+  display:flex;
+}
+.myIcon image{
+  width: 185rpx;
+  height: 185rpx;
+  margin: 48rpx;
+  display:inline-block;
+}
+.myIcon text{
+  font-size: 42rpx;
+  line-height: 276rpx;
+  color: #333333;
+}
+.name,
+.contact{
+  height: 216rpx;
+  display: flex;
+  margin-left:48rpx; 
+  line-height:216rpx;
+}
+.name input,
+.contact input{
+   margin: auto;
+}

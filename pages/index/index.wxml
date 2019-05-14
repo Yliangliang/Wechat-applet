@@ -1,0 +1,90 @@
+<view class='header'>
+  <image src='/images/icon/bg.png'/>
+  <movable-view class='headerPhoto'>
+      <image src='/images/icon/touxaingtu.png'/>
+  </movable-view>
+  <movable-view class='headerUnit'>
+    <view>纵索科技</view>
+  </movable-view>
+  <movable-view class='administrators'>
+    <view>超级管理员: 王先生 (王思聪)</view>
+  </movable-view>
+  <movable-view class='bt'>
+    <navigator url='../myInformation/myInformation'>
+      <text>〉</text>
+    </navigator>
+  </movable-view>
+  <movable-view class='retail'>
+    <view>自助零售</view>
+  </movable-view>
+</view>
+<view class='title'>
+  <image class='title-logs'/>
+  <text class='title-text'>货架业务</text>
+  <image class='title-logs'/>
+</view>
+<view class='shelves'>
+  <navigator class='shelves-item'>
+    <image src='/images/icon/icon55.png'/>
+    <text>库存管理</text>
+  </navigator>
+  <navigator class='shelves-item'>
+    <image src='/images/icon/icon99.png'/>
+    <text>优惠券管理</text>
+  </navigator>
+  <navigator class='shelves-item'>
+    <image src='/images/icon/icon12.png'/>
+    <text>外卖管理</text>
+ </navigator>
+  <navigator class='shelves-item'>
+    <image src='/images/icon/icon11.png'/>
+    <text>财务管理</text>
+  </navigator>
+</view>
+
+<view class='title'>
+  <image class='title-logs'/>
+  <text class='title-text'>其他业务</text>
+  <image class='title-logs'/>
+</view>
+<view class='other'>
+  <navigator class='other-item'>
+    <image src='/images/icon/icon1010.png'/>
+    <text>库存盘点</text>
+  </navigator>
+  <navigator class='other-item'>
+    <image src='/images/icon/icon66.png'/>
+    <text>商品管理</text>
+  </navigator>
+  <navigator class='other-item'>
+   <image src='/images/icon/icon77.png'/>
+    <text>商品上架</text>
+  </navigator>
+  <navigator class='other-item'>
+    <image src='/images/icon/icon88.png'/>
+    <text>库存查询</text>
+  </navigator>
+</view>
+
+<view class='title1'>
+ <image src='/images/icon/tab.png'/>
+  <text class='title1-text'>数据分析</text>
+</view>
+<view class='analysis'>
+  <navigator class='analysis-item'>
+    <image src='/images/icon/icon22.png'/>
+    <text>交易分析</text>
+  </navigator>
+  <navigator class='analysis-item'>
+    <image src='/images/icon/icon33.png'/>
+    <text>商品分析</text>
+  </navigator>
+  <navigator class='analysis-item'>
+   <image src='/images/icon/icon44.png'/>
+    <text>货架分析</text>
+  </navigator>
+  <navigator class='analysis-item'>
+    <image src='/images/icon/icon1111.png'/>
+    <text>外卖分析</text>
+  </navigator>
+</view>

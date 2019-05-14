@@ -1,0 +1,103 @@
+.header{
+  height:325rpx;
+}
+.header image{
+  width: 100%;
+  height: 325rpx;
+}
+.headerPhoto{
+  top:49rpx;
+  left:50%;
+  margin-left:-62.5rpx;
+}
+.headerPhoto image{
+  width:125rpx;
+  height:125rpx;
+}
+.headerUnit{
+  top:190rpx;
+  left:50%;
+  margin-left:-55rpx;
+}
+.headerUnit view{
+  width:110rpx;
+  height:27rpx;
+  color:white;
+  font-size: 26rpx;
+}
+.administrators{
+  top:250rpx;
+  left:50%;
+  margin-left:-159rpx;
+}
+.administrators view{
+  width:319rpx;
+  height:24rpx;
+  color:white;
+  font-size: 24rpx;
+  font-weight:500;
+}
+.bt{
+  top:95rpx;
+  left:90%;
+  color:white;
+  font-size:13px;
+}
+.retail{
+  width: 143rpx;
+  height: 53rpx;
+  background-color:#D68800;
+  border-radius: 50rpx;
+  text-align: center;
+  line-height: 53rpx;
+  left:50%;
+  margin-left:-71rpx;
+  top:300rpx;
+  color:#ffffff;
+  font-size: 24rpx;
+}
+.shelves,
+.other,
+.analysis {
+  display: flex;
+  flex-wrap:wrap;
+  font-size: 26rpx;
+  margin-top:209rpx;
+}
+.shelves-item,
+.other-item,
+.analysis-item {
+  display: flex;
+  flex-direction: column;
+  width: 187.5rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  align-items: center;
+}
+.shelves-item image,
+.other-item image,
+.analysis-item image{
+  width: 76rpx;
+  height: 76rpx;
+  margin-bottom:20rpx; 
+}
+.title-logs{
+  width: 40%;
+  height: 2rpx;
+  background-color: #0F9888;
+}
+.title-text{
+  font-size: 35rpx;
+  color: #0F9888;
+}
+.title{
+  margin-top:209rpx;
+}
+.title1{
+  margin-top:209rpx;
+  height: 25rpx;
+}
+.title1 image{
+  height: 100%;
+  width: 100%;
+}
