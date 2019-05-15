@@ -1,7 +1,6 @@
 {
   "usingComponents": {},
   "navigationBarBackgroundColor": "#FFFFFF",
-  "navigationBarTitleText": "个人资料",
+  "navigationBarTitleText": "优惠券管理",
   "navigationBarTextStyle": "black"
-  
 }

@@ -1,7 +1,6 @@
 {
   "usingComponents": {},
   "navigationBarBackgroundColor": "#FFFFFF",
-  "navigationBarTitleText": "个人资料",
+  "navigationBarTitleText": "货架管理",
   "navigationBarTextStyle": "black"
-  
 }

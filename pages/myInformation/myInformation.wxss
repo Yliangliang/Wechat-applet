@@ -1,27 +1,67 @@
+page{
+  background-color:#F5F5F5;
+}
 .myIcon{
-  height: 276rpx;
-  background-color: #FFFFFF;
+  height: 174rpx;
   display:flex;
+  border-top: 10rpx #F5F5F5 solid;
+  background-color: #FFFFFF;
 }
 .myIcon image{
-  width: 185rpx;
-  height: 185rpx;
-  margin: 48rpx;
+  width: 115rpx;
+  height: 115rpx;
+  margin: 37rpx;
   display:inline-block;
 }
 .myIcon text{
-  font-size: 42rpx;
-  line-height: 276rpx;
+  font-size: 26rpx;
+  line-height: 174rpx;
   color: #333333;
 }
 .name,
 .contact{
-  height: 216rpx;
+  height: 135rpx;
   display: flex;
-  margin-left:48rpx; 
-  line-height:216rpx;
+  padding-left:31rpx; 
+  line-height:135rpx;
+  font-size: 26rpx;
+  color:#333333;
+  border-top: 10rpx #F5F5F5 solid;
+  background-color: #FFFFFF;
 }
 .name input,
 .contact input{
    margin: auto;
+   
+   padding-left: 10rpx;
+}
+.name input{
+  margin-left:170rpx;
+}
+.contact input{
+  margin-left:118rpx;
+}
+.bt{
+  width:90%;
+  height:80rpx;
+  background:linear-gradient(132deg,rgba(26,165,145,1),rgba(29,199,174,1));
+  box-shadow:0rpx 5rpx 10rpx 0rpx rgba(0, 0, 0, 0.15);
+   border-radius:20rpx;
+   color: white;
+   font-size: 26rpx;
+   line-height: 80rpx;
+   margin-top: 113rpx;
+}
+.name-bt,
+.contact-bt{
+  width:36rpx;
+  height:36rpx;
+  border-radius: 50%;
+  padding: 0;
+  background-color: #999999;
+  margin: auto;
+  margin-right: 30rpx;
+  color: white;
+  font-size:26rpx;
+  line-height: 36rpx;  
 }

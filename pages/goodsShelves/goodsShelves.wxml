@@ -1,0 +1,40 @@
+<view class="swiper-tab">  
+    <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">
+    货架管理
+    <view class="swiper-tab-1 {{currentTab==0 ? 'in' : ''}}"></view>
+    </view>  
+    <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">货架分组
+    <view class="swiper-tab-1 {{currentTab==1 ? 'in' : ''}}"></view>
+    </view>  
+</view>  
+  
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 31}}px" bindchange="bindChange">  
+    <swiper-item>  
+      <view class='search'>
+        <image src='/images/icon/icon10.png'/>
+        <input placeholder="搜索货架名称，地址" auto-focus type='text'/>
+      </view>
+      <view class='detailed'>
+        <view class='detailed-1'>
+          <image src='/images/icon/icon1.png'/>
+          <view class='state'>开放式</view>
+        </view>
+        <view class='cabinet'>
+          <text class='cabinet-number'>光谷创意1号柜</text>
+          <text class='cabinet-state'>启用中</text>
+          <text class='cabinet-tab'>></text>
+        </view>
+        <view class='address'>
+          <text>武汉市洪山区关山大道中国光谷创意产业基地B座611室</text>
+        </view>
+      </view>
+      <view>
+        <button class='add-cabinet'>新增货架</button>
+      </view>
+        
+    </swiper-item>  
+    <swiper-item>  
+      <view>货架分组</view>  
+      
+    </swiper-item>   
+</swiper> 

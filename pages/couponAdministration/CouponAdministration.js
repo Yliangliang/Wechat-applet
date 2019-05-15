@@ -1,8 +1,5 @@
-// pages/myInformation/myInformation.js
+// pages/couponAdministration/CouponAdministration.js
 Page({
-  onPullDownRefresh() {
-    wx.stopPullDownRefresh()
-  },
 
   /**
    * 页面的初始数据

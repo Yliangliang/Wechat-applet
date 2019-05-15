@@ -1,15 +1,19 @@
 {
   "pages": [
-    
+    "pages/couponAdministration/CouponAdministration",
     "pages/index/index",
     "pages/myInformation/myInformation",
-    "pages/logs/logs"
+    "pages/goodsShelves/goodsShelves"
+    
+    
+    
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#0F9888",
     "navigationBarTitleText": "美吉拉商户端平台",
-    "navigationBarTextStyle": "white"
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#eeeeee"
   },
   "tabBar": {
     "list": [

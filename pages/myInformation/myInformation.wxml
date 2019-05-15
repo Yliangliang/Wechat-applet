@@ -1,16 +1,19 @@
+<view class='body'>
 
-<view class='myIcon'>
-   <image src='/images/icon/touxaingtu.png'/>
-   <text>王思聪</text>
-</view>
-<view class='name'>
-  <text>姓名</text>
-  <input type='text'></input>
-  <button type='text'></button>
-</view>
+  <view class='myIcon'>
+     <image src='/images/icon/touxaingtu.png'/>
+     <text>王思聪</text>
+  </view>
+  <view class='name'>
+    <text>姓名</text>
+    <input value='王先生' type='text'/>
+    <button class='contact-bt'>╳</button>
+  </view>
 
-<view class='contact'>
-  <text>联系方式</text>
-  <input type='number'></input>
+  <view class='contact'>
+    <text>联系方式</text>
+    <input value='1231213121' type='number'/>
+    <button class='contact-bt'>╳</button>
+  </view>
+  <button class='bt' form-type="submit">保存</button>
 </view>
-<button type='primary' form-type="submit">保存</button>

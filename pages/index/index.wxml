@@ -18,18 +18,16 @@
     <view>自助零售</view>
   </movable-view>
 </view>
-
 <view class='title'>
-  <image class='title-logs'/>
+ <image src='/images/icon/tab.png'/>
   <text class='title-text'>货架业务</text>
-  <image class='title-logs'/>
 </view>
 <view class='shelves'>
-  <navigator class='shelves-item'>
+  <navigator class='shelves-item' url='/pages/goodsShelves/goodsShelves'>
     <image src='/images/icon/icon55.png'/>
     <text>库存管理</text>
   </navigator>
-  <navigator class='shelves-item'>
+  <navigator class='shelves-item' url='/pages/couponAdministration/CouponAdministration'>
     <image src='/images/icon/icon99.png'/>
     <text>优惠券管理</text>
   </navigator>
@@ -44,9 +42,8 @@
 </view>
 
 <view class='title'>
-  <image class='title-logs'/>
+ <image src='/images/icon/tab.png'/>
   <text class='title-text'>其他业务</text>
-  <image class='title-logs'/>
 </view>
 <view class='other'>
   <navigator class='other-item'>
@@ -67,9 +64,9 @@
   </navigator>
 </view>
 
-<view class='title1'>
+<view class='title'>
  <image src='/images/icon/tab.png'/>
-  <text class='title1-text'>数据分析</text>
+  <text class='title-text'>数据分析</text>
 </view>
 <view class='analysis'>
   <navigator class='analysis-item'>
