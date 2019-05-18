@@ -1,5 +1,10 @@
 {
   "pages": [
+   
+    "pages/inventory-details/inventory-details",
+    "pages/inventory-add/inventory-add",
+    "pages/stock-inventory/stock-inventory",
+    "pages/finance/finance",
     "pages/commodity/commodity",
     "pages/take-out/take-out",
     "pages/coupon-add/coupon-add",

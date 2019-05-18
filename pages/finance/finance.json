@@ -1,0 +1,7 @@
+{
+    "usingComponents": {},
+    "navigationBarBackgroundColor": "#1AA591",
+    "navigationBarTitleText": "分佣提现",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": false
+}

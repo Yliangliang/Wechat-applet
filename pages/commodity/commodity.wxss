@@ -61,7 +61,82 @@
   text-align:left;
 }
 .foot{
+    width: 100%;
     height:88rpx;
     background:rgba(255,255,255,1);
-
+    position: fixed;
+    bottom: 0rpx;
+    left: 0;
+    font-size: 26rpx;
+    display: flex;
+    line-height: 88rpx;
+}
+.bt button{
+    height: 88rpx;
+    display: inline-block;
+    width: 50%;
+    font-size: 24rpx;
+    text-align: center;
+    line-height: 88rpx;
+    border-radius: 0;
+}
+.bt button::after{
+    border: none;
+}
+.body{
+    height: 254rpx;
+    background-color:#ffffff;
+    display: flex;
+    padding: 0 30rpx;
+}
+.body-1{
+    width: 10%;
+    height: 254rpx;
+    line-height: 254rpx;
+}
+.body-1 checkbox .wx-checkbox-input{
+    width: 32rpx;
+    height: 32rpx;
+    border-radius: 50%;
+}
+.body-1 checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+  background:#0F9888;
+}
+.body-1 checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
+  width: 28rpx;
+  height: 28rpx;
+  line-height: 28rpx;
+  text-align: center;
+  font-size: 22rpx;
+  color: #fff;
+  background: transparent;
+  transform: translate(-50%, -50%) scale(1);
+  -webkit-transform: translate(-50%, -50%) scale(1);
+}
+.body-2{
+    width: 20%;
+    height: 254rpx;
+}
+.body-2 image{
+    height: 116rpx;
+    width:116rpx;
+    margin: 67rpx 0;
+}
+.body-3{
+    width: 60%;
+    height: 254rpx;
+    font-size: 24rpx;
+}
+.body-3-1{
+    height: 127rpx;
+    line-height: 200rpx;
+}
+.body-3-2{
+    height: 127rpx;
+    color: #ff0000;
+}
+.body-4{
+    width: 10%;
+    height: 254rpx;
+    line-height: 254rpx;
 }

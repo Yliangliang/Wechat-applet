@@ -1,0 +1,172 @@
+<view class='shelf'>
+    <view class='shelfName'>
+        <text style='margin-top:25rpx;font-size:22rpx;color:#333333;'>货架名称</text>
+        <text style='margin-top:20rpx;font-weight:800;color:#333333;'>全部货架</text>
+    </view>
+    <view class='shelf-tab'>></view>
+</view>
+
+
+<scroll-view scroll-y="true" class='by'>
+    <navigator url='/pages/inventory-details/inventory-details' class='stock-details'>
+       <view class='.bor-bom'>
+            <view class='shelfName'>
+                <text class='shelfName-1'>货架名称</text>
+                <text class='shelf-time'>盘点时间</text> 
+            </view>
+            <view class='stock-information'>
+                <text style='display:block;margin:20rpx 0;'>{{cabinetNumber}}</text>
+                <text>{{date}}\t</text>
+                <text>{{time}}</text>
+            </view>  
+       </view>
+       <view class='money'>
+            <view class='money-1'>
+                <text>盈亏金额</text>
+            </view>
+            <view class='money-number'>
+                <text style='color:red;' wx:if="{{money<0}}">￥</text>
+                <text style='color:green;' wx:if="{{money>0}}">￥</text>
+                <text wx:if="{{money==0}}">￥</text>
+                <text style='color:red;' wx:if="{{money<0}}">{{money}}</text>
+                <text style='color:green;' wx:if="{{money>0}}">{{money}}</text>
+                <text wx:if="{{money==0}}">{{money}}</text>
+            </view>
+       </view>         
+    </navigator>
+<view class='stock-details'>
+   <view class='.bor-bom'>
+        <view class='shelfName'>
+            <text class='shelfName-1'>货架名称</text>
+            <text class='shelf-time'>盘点时间</text> 
+        </view>
+        <view class='stock-information'>
+            <text style='display:block;margin:20rpx 0;'>{{cabinetNumber}}</text>
+            <text>{{date}}\t</text>
+            <text>{{time}}</text>
+        </view>  
+   </view>
+   <view class='money'>
+        <view class='money-1'>
+            <text>盈亏金额</text>
+        </view>
+        <view class='money-number'>
+            <text style='color:red;' wx:if="{{money<0}}">￥</text>
+            <text style='color:green;' wx:if="{{money>0}}">￥</text>
+            <text wx:if="{{money==0}}">￥</text>
+            <text style='color:red;' wx:if="{{money<0}}">{{money}}</text>
+            <text style='color:green;' wx:if="{{money>0}}">{{money}}</text>
+            <text wx:if="{{money==0}}">{{money}}</text>
+        </view>
+   </view>
+            
+</view>
+<view class='stock-details'>
+   <view class='.bor-bom'>
+        <view class='shelfName'>
+            <text class='shelfName-1'>货架名称</text>
+            <text class='shelf-time'>盘点时间</text> 
+        </view>
+        <view class='stock-information'>
+            <text style='display:block;margin:20rpx 0;'>{{cabinetNumber}}</text>
+            <text>{{date}}\t</text>
+            <text>{{time}}</text>
+        </view>  
+   </view>
+   <view class='money'>
+        <view class='money-1'>
+            <text>盈亏金额</text>
+        </view>
+        <view class='money-number'>
+            <text style='color:red;' wx:if="{{money<0}}">￥</text>
+            <text style='color:green;' wx:if="{{money>0}}">￥</text>
+            <text wx:if="{{money==0}}">￥</text>
+            <text style='color:red;' wx:if="{{money<0}}">{{money}}</text>
+            <text style='color:green;' wx:if="{{money>0}}">{{money}}</text>
+            <text wx:if="{{money==0}}">{{money}}</text>
+        </view>
+   </view>         
+</view>
+<view class='stock-details'>
+   <view class='.bor-bom'>
+        <view class='shelfName'>
+            <text class='shelfName-1'>货架名称</text>
+            <text class='shelf-time'>盘点时间</text> 
+        </view>
+        <view class='stock-information'>
+            <text style='display:block;margin:20rpx 0;'>{{cabinetNumber}}</text>
+            <text>{{date}}\t</text>
+            <text>{{time}}</text>
+        </view>  
+   </view>
+   <view class='money'>
+        <view class='money-1'>
+            <text>盈亏金额</text>
+        </view>
+        <view class='money-number'>
+            <text style='color:red;' wx:if="{{money<0}}">￥</text>
+            <text style='color:green;' wx:if="{{money>0}}">￥</text>
+            <text wx:if="{{money==0}}">￥</text>
+            <text style='color:red;' wx:if="{{money<0}}">{{money}}</text>
+            <text style='color:green;' wx:if="{{money>0}}">{{money}}</text>
+            <text wx:if="{{money==0}}">{{money}}</text>
+        </view>
+   </view>
+            
+</view>
+<view class='stock-details'>
+   <view class='.bor-bom'>
+        <view class='shelfName'>
+            <text class='shelfName-1'>货架名称</text>
+            <text class='shelf-time'>盘点时间</text> 
+        </view>
+        <view class='stock-information'>
+            <text style='display:block;margin:20rpx 0;'>{{cabinetNumber}}</text>
+            <text>{{date}}\t</text>
+            <text>{{time}}</text>
+        </view>  
+   </view>
+   <view class='money'>
+        <view class='money-1'>
+            <text>盈亏金额</text>
+        </view>
+        <view class='money-number'>
+            <text style='color:red;' wx:if="{{money<0}}">￥</text>
+            <text style='color:green;' wx:if="{{money>0}}">￥</text>
+            <text wx:if="{{money==0}}">￥</text>
+            <text style='color:red;' wx:if="{{money<0}}">{{money}}</text>
+            <text style='color:green;' wx:if="{{money>0}}">{{money}}</text>
+            <text wx:if="{{money==0}}">{{money}}</text>
+        </view>
+   </view>         
+</view>
+<view class='stock-details'>
+   <view class='.bor-bom'>
+        <view class='shelfName'>
+            <text class='shelfName-1'>货架名称</text>
+            <text class='shelf-time'>盘点时间</text> 
+        </view>
+        <view class='stock-information'>
+            <text style='display:block;margin:20rpx 0;'>{{cabinetNumber}}</text>
+            <text>{{date}}\t</text>
+            <text>{{time}}</text>
+        </view>  
+   </view>
+   <view class='money'>
+        <view class='money-1'>
+            <text>盈亏金额</text>
+        </view>
+        <view class='money-number'>
+            <text style='color:red;' wx:if="{{money<0}}">￥</text>
+            <text style='color:green;' wx:if="{{money>0}}">￥</text>
+            <text wx:if="{{money==0}}">￥</text>
+            <text style='color:red;' wx:if="{{money<0}}">{{money}}</text>
+            <text style='color:green;' wx:if="{{money>0}}">{{money}}</text>
+            <text wx:if="{{money==0}}">{{money}}</text>
+        </view>
+   </view>           
+</view>
+</scroll-view>
+<navigator url='pages/inventory-add/inventory-add' class='preserve'>
+    <button class='preserve-bt' hover-class='preserve-bt-hover' bindtap='preserve'>新增盘点</button>
+</navigator>

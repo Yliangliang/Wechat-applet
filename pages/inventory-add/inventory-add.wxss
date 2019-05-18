@@ -1,0 +1,106 @@
+.goods-shelves{
+    height: 128rpx;
+    display: flex;
+    line-height: 128rpx;
+    background-color: #ffffff;
+    padding: 0 29rpx;
+    margin-top: 10rpx;
+}
+.goods-shelves-name,
+.goods-shelves-icon{
+    font-size: 26rpx;
+    width: 50%;
+    height: 128rpx;
+}
+.goods-shelves-icon{
+    text-align: right;
+    color: #999999;
+}
+.detailed{
+    font-size:26rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    padding: 0 29rpx;
+}
+.choose{
+    height: 128rpx;
+    font-size: 26rpx;
+    line-height: 128rpx;
+    background-color: #ffffff;
+    padding: 0 29rpx;
+    display: flex;
+}
+.choose-commodity{
+    width: 20%;
+    height: 128rpx;
+  
+}
+.choose-add{
+    width: 40%;
+}
+.choose-add input{
+    height: 128rpx;
+    text-align: center;
+}
+.sweepCode{
+    width: 40%;
+    color: #999999;
+    text-align: right;
+}
+.sweepCode image{
+    width: 32rpx;
+    height: 32rpx;
+    margin-right: 20rpx;
+    display: inline-block;
+}
+.sweepCode>view{
+   text-align: center;
+  display: inline-block;
+  height: 128rpx;
+
+}
+.remarks{
+    height: 128rpx;
+    font-size:26rpx;
+    background-color: #ffffff;
+    margin-top: 10rpx;
+    padding: 0 29rpx;
+    line-height: 128rpx;
+    display: flex;
+}
+.remarks input{
+    width: 400rpx;
+    height: 128rpx;
+    text-align: center;
+}
+.foot{
+    height: 87rpx;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    position: fixed;
+    bottom: 0rpx;
+    line-height: 87rpx;
+    font-size: 26rpx;
+    padding: 0 29rpx;
+    
+}
+.foot1{
+    width: 50%;
+}
+.foot2{
+   width: 50%;
+}
+.foot button{
+    font-size: 26rpx;
+    height: 66rpx;
+    width: 179rpx;
+    line-height: 66rpx;
+    margin-top: 10rpx;
+    background:linear-gradient(90deg,rgba(26,165,145,1) 0%,rgba(21,202,176,1) 100%);
+    border-radius:10px;
+    color: #FFFFFF;
+}
+.foot button::after{
+    border: none;
+}

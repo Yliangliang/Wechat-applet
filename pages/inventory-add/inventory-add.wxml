@@ -1,0 +1,47 @@
+<view class='goods-shelves'>
+    <view class='goods-shelves-name'>
+        <text>货架名称</text>
+    </view>
+    <view class='goods-shelves-icon'>
+        <text>></text>
+    </view>
+</view>
+
+<view class='detailed'>
+    <text>盘点明细</text>
+</view>
+
+<view class='choose'>
+    <view class='choose-commodity'>
+        <text>选择商品\t></text>
+    </view>
+    <view class='choose-add'>
+        <input value='{{choose}}'/>
+    </view>
+    <view class='sweepCode' bindtap='sweepCode' >
+        <view>
+            <image src='/images/icon/icon9.png'/>
+        </view>
+        <view>扫条形码添加</view>
+    </view>
+</view>
+
+<view class='remarks'>
+    <view class='choose-commodity'>
+        <text>备注</text>
+    </view>
+    <view class=''>
+        <input placeholder="请输入其他内容" auto-focus  type='text'/>
+    </view>
+</view>
+
+<view class='foot'>
+    <view class='foot1'>
+        <text>合计\t:</text>
+        <text style='margin-left:20rpx;'>0</text>
+    </view>
+    <view class='foot2'>
+        <button>盘点</button>
+    </view>
+
+</view>

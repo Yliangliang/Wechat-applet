@@ -82,14 +82,14 @@
 </view>
 
 <view class='receipt'>
-     <text>外卖功能</text>
+     <text>自动接单</text>
     <view class="takeOut-switch ">
         <switch bindchange="switch1Change"/>
     </view>
 </view>
 
 <view class='QR-code'>
-    <text>外卖功能</text>
+    <text>页面二维码</text>
 </view>
 
 <view class='preserve'>

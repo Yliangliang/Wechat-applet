@@ -8,19 +8,53 @@
 </view>  
 <swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 31}}px" bindchange="bindChange">  
     <swiper-item class="content">
-        <view class='body'>
+        <view class='header'>
             <view class='search'>
                 <image src='/images/icon/icon10.png'/>
                 <input placeholder="搜索货架名称，地址" auto-focus type='text'/>
                 <image src='/images/icon/icon9.png' bindtap='scanCode'/>
             </view>
         </view>
+        <view class='body'>
+            <view class='body-1'>
+                <checkbox></checkbox>
+            </view>
+            <view class='body-2'>
+                <image src='/images/icon/pic.png'/>
+            </view>
+            <view class='body-3'>
+                <view class='body-3-1'><text>测试</text></view>
+                <view class='body-3-2'>
+                    <text>销售价：</text>
+                    <text>￥</text>
+                    <text>39.98</text>
+                    <text>/个</text>
+                </view>
+                
+            </view>
+            <view class='body-4'><text>></text></view>
+        
+        </view>
+
+
         <view class='foot'>
+          <view style='width:30%;margin-left:30rpx;'>
             <radio-group class="usable-radio" name="radio-group">
-            <label >
-                <radio value="radio1" />选择日期
-            </label>         
-        </radio-group>
+                <label >
+                    <radio value="radio1" />全选
+                    <text>已加载</text>
+                </label>         
+              </radio-group>
+          </view>
+          <view style='width:25%;'>
+            <text>合计\t:</text>
+            <text>0</text>
+          </view>
+          <view style='width:45%' class='bt'>
+            <button style='background:#E5B14A;'>新增商品</button>
+            <button style='background:#D94A2A;'>快速上架</button>
+          </view>
+            
         
         </view>
     </swiper-item>  

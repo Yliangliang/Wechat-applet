@@ -1,0 +1,7 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTitleText": "新增盘点",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": false
+}

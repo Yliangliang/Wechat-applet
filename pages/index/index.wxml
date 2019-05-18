@@ -31,11 +31,11 @@
     <image src='/images/icon/icon99.png'/>
     <text>优惠券管理</text>
   </navigator>
-  <navigator class='shelves-item' url='pages/take-out/take-out'>
+  <navigator class='shelves-item' url='/pages/take-out/take-out'>
     <image src='/images/icon/icon12.png'/>
     <text>外卖管理</text>
  </navigator>
-  <navigator class='shelves-item'>
+  <navigator url='/pages/finance/finance' class='shelves-item'>
     <image src='/images/icon/icon11.png'/>
     <text>财务管理</text>
   </navigator>
@@ -46,7 +46,7 @@
   <text class='title-text'>其他业务</text>
 </view>
 <view class='other'>
-  <navigator class='other-item'>
+  <navigator class='other-item' url='/pages/stock-inventory/stock-inventory'>
     <image src='/images/icon/icon1010.png'/>
     <text>库存盘点</text>
   </navigator>

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTitleText": "库存盘点",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": false
+}
