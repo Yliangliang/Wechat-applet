@@ -1,0 +1,97 @@
+<view class='takeOut-use'>
+    <text>外卖功能</text>
+    <view class="takeOut-switch ">
+        <switch bindchange="switch1Change"/>
+    </view>
+</view>
+
+<view class='business-information'>
+    <view class='business-time'>
+        <view style='width:30%;'>营业时间</view>
+        <view style='width:60%;'>
+            <input value='{{time}}'/>
+        </view>
+        <view style='width:10%;color:#999999;float:right;'>
+            <picker mode="time" value="{{time}}" start="09:01"  end="21:01" bindchange="bindTimeChange">
+                <view class="picker">
+                    <text>〉</text>
+                </view>
+            </picker>
+        </view>
+    </view>
+    <view class='telephone'>
+        <view style='width:30%;'>联系电话</view>
+        <view style='width:70%;'>
+            <input/>
+        </view>
+    </view>
+    <view class='bulletin-board'>
+        <view style='width:30%;'>公告栏</view>
+        <view style='width:70%;'>
+            <input/>
+        </view>
+    </view>
+</view>
+
+<view class='store-information'>
+    <view class='store'>
+        <view style='width:30%;'>门店地址</view>
+         <view style='width:60%;'>
+            <input value='{{address}}'/>
+        </view>
+        <view style='width:10%;color:#999999;float:right;'>
+            <picker value="{{address}}"  bindchange="bindStoreAddress">
+                <view class="picker">
+                    <text>〉</text>
+                </view>
+            </picker>
+        </view>
+        
+    </view>
+    <view class='detailed-information'>
+        <view style='width:30%;'>详细信息</view>
+         <view style='width:60%;'>
+            <input value='湖北省武汉市洪山区关山大道'/>
+        </view>
+        <view style='width:10%;color:#999999;float:right;'>
+            <picker value="{{address}}"  bindchange="detailed">
+                <view class="picker">
+                    <text>〉</text>
+                </view>
+            </picker>
+        </view>
+    </view>
+    <view class='delivery'>
+        <view style='width:30%;'>配送范围</view>
+         <view style='width:60%;'>
+            <input value='30'/>
+        </view>
+        <view style='width:10%;color:#999999;float:right;'>
+            <text>公里</text>
+        </view>
+    </view>
+    <view class='order'>
+        <view style='width:30%;'>订单起送价</view>
+         <view style='width:60%;'>
+            <input value='20'/>
+        </view>
+        <view style='width:10%;color:#999999;float:right;'>
+            <text>元</text>
+        </view>
+    </view>
+</view>
+
+<view class='receipt'>
+     <text>外卖功能</text>
+    <view class="takeOut-switch ">
+        <switch bindchange="switch1Change"/>
+    </view>
+</view>
+
+<view class='QR-code'>
+    <text>外卖功能</text>
+</view>
+
+<view class='preserve'>
+    <button class='preserve-bt' hover-class='preserve-bt-hover' bindtap='preserve'>保存</button>
+</view>

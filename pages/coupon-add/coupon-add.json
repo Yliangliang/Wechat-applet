@@ -1,0 +1,7 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTitleText": "新增优惠券",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": false
+}

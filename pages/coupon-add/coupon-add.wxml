@@ -1,0 +1,130 @@
+<view class='coupon'>
+    <view class='coupon-name'>
+            <text class='symbol'>*</text>
+            <text>优惠券名称</text>
+        <view>
+            <input bindinput='couponNname'  placeholder="请输入优惠券名称，10字以内" auto-focus type='text'/>
+        </view>          
+    </view>
+    <view class='coupon-denomination'>
+        <text class='symbol'>*</text>
+        <text>面额</text>
+        <view>
+            <input  placeholder="{{result}}"  type='text'/>
+        </view>
+        <button bindlongtap='getScancode' class='coupon-denomination-icon' >
+            <image  style='width:30rpx;height:30rpx;' src='/images/icon/icon9.png'/>
+        </button>
+    </view>
+</view>
+
+<view class="use">
+    <radio-group name="radio-group">
+    <view class='radio1'>
+        <text class='symbol'>*</text>
+        <text>使用门槛</text>
+        <label >
+            <radio value="radio1" />无门槛
+        </label>
+    </view>
+    <view class='radio2'>
+        <label >
+            <radio value="radio2" />订单满
+        </label>
+        <view >
+            <input></input>
+        </view>
+        <view>
+            元可使用
+        </view>
+    </view>                 
+    </radio-group>
+</view>
+
+<view class="usable">
+    <view class='usable-time'>
+        <text>可用时间</text>
+    </view>
+    <view class='usable-form'>
+        <text class='symbol'>*</text>
+        <text>形式</text>
+        <radio-group class="usable-radio" name="radio-group">
+            <label >
+                <radio value="radio1" />选择日期
+            </label>
+            <label style='margin-left:79rpx;'>
+                <radio value="radio2" />固定天数
+            </label>          
+        </radio-group>
+        <view class='usable-day'>
+            <view>当日领取</view>
+            <view >
+                <input></input>
+            </view>
+            <view>天有效</view>
+            <view class='tab'>></view>
+        </view>         
+    </view>
+</view>
+
+<view class='other'>
+    <view class='other-rule'><text>其他规则</text></view>
+    <view class='everyone'>
+        <view>
+            <text class='symbol'>*</text>
+            <text>每人限领次</text>
+        </view>
+        <view ><input></input></view>
+        <view>次</view>
+    </view>
+</view>
+
+<view class='grant'>
+    <text class='symbol'>*</text>
+    <text>发放总量</text>
+   
+          <input></input>
+</view>
+
+<view class='support'>
+    <view class='support-scene'>
+        <text class='symbol'>*</text>
+        <text>支持场景</text>
+        <radio-group  name="radio-group">
+            <label>
+                <radio />货架订单
+            </label>          
+        </radio-group>
+    </view>
+    <view class='support-goods-shelves'>
+        <view style='width:30%;'>
+            <text class='symbol'>*</text>
+            <text>支持货架</text>
+        </view>
+        <view style='width:60%;'>
+            <input placeholder="选择货架" value='{{array[index]}}'></input>
+        </view>
+        <view style='width:10%;'>
+            <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+                <view class="picker">
+                    <text class='tab1'>></text>
+                </view>
+            </picker>
+        </view>
+    </view>
+</view>
+
+<view class='receive'>
+    <view class='receive-setup'>
+        <view class='receive-setup1'>领取设置</view>
+        <view>进店后自动发放/领取</view>
+    </view>
+    <view class="body-view ">
+        <switch  bindchange="switch1Change" />
+    </view>
+</view>
+<view class='preserve'>
+    <button class='preserve-bt' hover-class='preserve-bt-hover' bindtap='preserve'>保存</button>
+</view>
+
+

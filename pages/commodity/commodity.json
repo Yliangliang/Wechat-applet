@@ -1,0 +1,7 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTitleText": "商品管理",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": false
+}

@@ -1,11 +1,12 @@
 {
   "pages": [
-    "pages/couponAdministration/CouponAdministration",
+    "pages/commodity/commodity",
+    "pages/take-out/take-out",
+    "pages/coupon-add/coupon-add",
     "pages/index/index",
+    "pages/coupon-administration/coupon-administration",
     "pages/myInformation/myInformation",
     "pages/goodsShelves/goodsShelves"
-    
-    
     
   ],
   "window": {

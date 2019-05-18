@@ -1,4 +1,4 @@
-// pages/goodsShelves/goodsShelves.js
+var app = getApp()
 Page({
 
   /**
@@ -8,7 +8,6 @@ Page({
     winWidth: 0,
     winHeight: 0,
     currentTab: 0
-  
   },
 
   /**
@@ -28,7 +27,7 @@ Page({
   bindChange: function (e) {
     var that = this;
     that.setData({ currentTab: e.detail.current });
-  },  
+  },
   swichNav: function (e) {
     var that = this;
     if (this.data.currentTab === e.target.dataset.current) {
@@ -38,8 +37,7 @@ Page({
         currentTab: e.target.dataset.current
       })
     }
-  } ,
-
+  },  
 
   /**
    * 生命周期函数--监听页面初次渲染完成

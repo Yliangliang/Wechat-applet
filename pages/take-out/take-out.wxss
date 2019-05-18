@@ -1,0 +1,89 @@
+.takeOut-use,
+.business-information,
+.store-information,
+.receipt,
+.QR-code{
+    background:rgba(255,255,255,1);
+    font-size:26rpx;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(51,51,51,1);
+    margin-top: 10rpx;
+    padding: 0 30rpx;
+}
+.takeOut-use,
+.receipt,
+.QR-code{
+    height: 110rpx;
+    line-height:110rpx;
+}
+.takeOut-switch{
+    display: inline-block;
+    float: right;
+}
+.business-information{
+    height: 326rpx;
+}
+.business-time,
+.telephone{
+    height: 109rpx;
+    border-bottom: 1rpx solid #f5f5f5;
+    line-height: 109rpx;
+    display: flex;
+}
+.business-time input,
+.bulletin-board input{
+    height: 109rpx;
+    line-height: 109rpx;
+}
+.telephone input{
+     height: 106rpx;
+     line-height: 106rpx;
+}
+.bulletin-board{
+    height: 109rpx;
+    line-height: 109rpx;
+    display: flex;
+}
+.telephone{
+    height: 106rpx;
+}
+.store-information{
+    height: 426rpx;
+}
+.store,
+.detailed-information,
+.delivery,
+.order{
+    display: flex;
+    border-bottom: 1rpx solid #f5f5f5;
+    height: 105.5rpx;
+    line-height: 105.5rpx;
+}
+.store input,
+.detailed-information input,
+.delivery input,
+.order input{
+    height: 105.5rpx;
+    line-height: 105.5rpx;
+}
+.order{
+    border-style: none;
+}
+.preserve{
+    height: 170rpx;
+}
+.preserve-bt{
+  width:690rpx;
+  height:80rpx;
+  background:linear-gradient(132deg,rgba(26,165,145,1),rgba(29,199,174,1));
+  box-shadow:0rpx 3rpx 5rpx 0rpx rgba(0, 0, 0, 0.1);
+  border-radius:20rpx;
+  font-size:26rpx;
+  color:rgba(255,255,255,1);
+  line-height: 80rpx;
+  margin-top: 57rpx;
+}
+.preserve-bt-hover{
+    background: rgb(25, 138, 121)
+}
