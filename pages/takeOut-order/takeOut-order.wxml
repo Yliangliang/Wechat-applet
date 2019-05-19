@@ -1,0 +1,51 @@
+<view class='header'>
+    <view><text>日期</text></view>
+    <view class='date'>
+        <view class='date-1'>
+            <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateStart">
+                <view class="picker">{{dateStart}}▼</view>
+            </picker>
+        </view>
+        <view class='sales-time-1'><text>至</text> </view>
+
+        <view class='date-2'>
+            <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateEnd">
+                <view class="picker">{{dateEnd}}▼</view>
+            </picker>
+        </view>
+    </view>
+</view>
+
+<view class="swiper-tab">
+    <button class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">全部</button>
+    <button class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">待接单</button>
+    <button class="swiper-tab-list {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">待配送</button>
+    <button class="swiper-tab-list {{currentTab==3 ? 'on' : ''}}" data-current="3" bindtap="swichNav">已完成</button>
+    <button class="swiper-tab-list {{currentTab==4 ? 'on' : ''}}" data-current="4" bindtap="swichNav">已关闭</button>
+</view>
+
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 31}}px" bindchange="bindChange">  
+    <swiper-item class="content">
+        <image src='/images/icon/zhanweitu1.png'/>
+       
+           
+    </swiper-item>  
+    <swiper-item>  
+   
+      
+    </swiper-item>
+    <swiper-item>33333333333</swiper-item>
+    <swiper-item>4444444444</swiper-item>
+    <swiper-item></swiper-item>
+</swiper> 
+
+<view class='foot'>
+    <view class='foot1'>
+        <text>将业务数据</text>
+    </view>
+    <view class='foot2'>
+        <button>发送到邮箱</button>
+    </view>
+
+</view>
+

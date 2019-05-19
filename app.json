@@ -1,6 +1,8 @@
 {
   "pages": [
-   
+    "pages/takeOut-order/takeOut-order",
+    "pages/goodsShelves-order/goodsShelves-order",
+    "pages/order/order",
     "pages/inventory-details/inventory-details",
     "pages/inventory-add/inventory-add",
     "pages/stock-inventory/stock-inventory",
@@ -30,7 +32,7 @@
       "selectedIconPath": "images/icon/icon1.png"
        },
        {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/order/order",
         "text": "订单",
         "iconPath": "images/icon/icon02.png",
         "selectedIconPath": "images/icon/icon2.png"

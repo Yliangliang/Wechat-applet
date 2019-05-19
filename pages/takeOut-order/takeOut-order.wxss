@@ -1,0 +1,88 @@
+.header{
+    height: 152rpx;
+    margin-top: 10rpx;
+    background-color: #ffffff;
+    padding: 0 30rpx;
+    font-size: 26rpx;
+}
+.header view{
+    height: 76rpx;
+    line-height: 76rpx;
+}
+.date{
+    height: 76rpx;
+    display: flex;
+}
+.date-1,
+.date-2{
+    width: 30%;
+    height: 95rpx;
+    color: #333333;
+}
+.sales-time-1{
+    width: 40%;
+    height: 95rpx;
+    text-align: center;
+    color: #999999;
+}
+.date-2{
+    text-align: right;
+}
+.swiper-tab{
+    height: 140rpx;
+    background-color: #ffffff;
+    margin-top: 5rpx;
+    text-align: center;
+    line-height: 175rpx;
+    
+}
+.swiper-tab button::after{
+    border: none;
+}
+.swiper-tab .on{
+     border: 1rpx solid red;
+     color: red;
+}
+.swiper-tab-list{
+     width: 138rpx;
+    height: 69rpx;
+    font-size:24rpx;
+    display: inline-block;
+    border-radius:0rpx;
+    border: 0.1rpx solid #f5f5f5;
+    color:#999999;
+    background:rgba(255,255,255,1);
+
+}
+.foot{
+    height: 87rpx;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    position: fixed;
+    bottom: 0rpx;
+    line-height: 87rpx;
+    font-size: 26rpx;
+    padding: 0 29rpx;
+    
+}
+.foot1{
+    width: 50%;
+    color: #999999;
+}
+.foot2{
+   width: 50%;
+}
+.foot button{
+    font-size: 26rpx;
+    height: 66rpx;
+    width: 238rpx;
+    line-height: 66rpx;
+    margin-top: 10rpx;
+    background:linear-gradient(90deg,rgba(26,165,145,1) 0%,rgba(21,202,176,1) 100%);
+    border-radius:10px;
+    color: #FFFFFF;
+}
+.foot button::after{
+    border: none;
+}

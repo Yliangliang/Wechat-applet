@@ -167,6 +167,6 @@
    </view>           
 </view>
 </scroll-view>
-<navigator url='pages/inventory-add/inventory-add' class='preserve'>
+<navigator url='/pages/inventory-add/inventory-add' class='preserve'>
     <button class='preserve-bt' hover-class='preserve-bt-hover' bindtap='preserve'>新增盘点</button>
 </navigator>

@@ -1,0 +1,53 @@
+<view class='shelf'>
+    <view class='shelfName'>
+        <text style='margin-top:25rpx;font-size:22rpx;color:#333333;'>货架名称</text>
+        <text style='margin-top:20rpx;font-weight:800;color:#333333;'>全部货架</text>
+    </view>
+    <view class='shelf-tab'>></view>
+</view>
+
+<view class='sales-time'>
+    <view class='date'>
+        <view class='date-1'>
+            <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateStart">
+                <view class="picker">{{dateStart}}▼</view>
+            </picker>
+        </view>
+        <view class='sales-time-1'><text>至</text> </view>
+
+        <view class='date-2'>
+            <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateEnd">
+                <view class="picker">{{dateEnd}}▼</view>
+            </picker>
+        </view>
+    </view>
+
+    <view class='sales-volume'>
+        <view>
+            <text>销售笔数</text>
+            <text>1</text>
+        
+        </view>
+        <view>
+            <text>销售数量</text>
+            <text>2</text>
+        </view>
+        <view>
+            <text>销售金额</text>
+            <text>￥{{}}</text>
+        </view>
+    </view>
+</view>
+<view class='body'>
+    <image src='/images/icon/zhanweitu1.png'/>
+</view>
+
+<view class='foot'>
+    <view class='foot1'>
+        <text>将业务数据</text>
+    </view>
+    <view class='foot2'>
+        <button>发送到邮箱</button>
+    </view>
+
+</view>

@@ -1,0 +1,23 @@
+<navigator url='/pages/goodsShelves-order/goodsShelves-order' class='goodsShelves-order'>
+    <view class='icon-image1'>
+        <image src='/images/icon/icon5.png'/>
+    </view>
+    <view class='order-text'>
+        <text>货架订单</text>
+    </view>
+    <view class='right'>
+        <text>></text>
+    </view>
+</navigator>
+
+<navigator url='/pages/takeOut-order/takeOut-order' class='takeOut-order'>
+    <view class='icon-image2'>
+        <image src='/images/icon/icon12.png'/>
+    </view>
+    <view class='order-text'>
+        <text>外卖订单</text>
+    </view>
+     <view class='right'>
+        <text>></text>
+    </view>
+</navigator>

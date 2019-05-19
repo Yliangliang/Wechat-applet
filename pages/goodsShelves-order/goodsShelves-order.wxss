@@ -1,0 +1,93 @@
+.shelf{
+    height: 128rpx;
+    background-color: #ffffff;
+    display: flex;
+    padding: 0 30rpx;
+    font-size: 26rpx;
+    margin-top:10rpx;
+}
+.shelfName text{
+    display: block;
+}
+.shelfName{
+    width: 20%;
+}
+.shelf-tab{
+    width: 5%;
+    height: 128rpx;
+    line-height: 128rpx;
+    margin-left: 75%;
+}
+.sales-time{
+    height: 277rpx;
+    background-color: #ffffff;
+    padding: 0 30rpx;
+    font-size: 26rpx;
+    margin-top:10rpx;
+}
+.date{
+    height: 95rpx;
+    border-bottom:1rpx solid #f5f5f5;
+    display: flex;
+    line-height: 95rpx;
+}
+.date-1,
+.date-2{
+    width: 30%;
+    height: 95rpx;
+    color: #333333;
+}
+.sales-time-1{
+    width: 40%;
+    height: 95rpx;
+    text-align: center;
+    color: #999999;
+}
+.date-2{
+    text-align: right;
+}
+.sales-volume{
+    height: 182rpx;
+    display: flex;
+}
+.sales-volume view{
+    width: 33.33%;
+    text-align: center;
+    color:#333333;
+}
+.sales-volume view text:first-child{
+    display: block;
+    margin: 42rpx 0;
+}
+.foot{
+    height: 87rpx;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    position: fixed;
+    bottom: 0rpx;
+    line-height: 87rpx;
+    font-size: 26rpx;
+    padding: 0 29rpx;
+    
+}
+.foot1{
+    width: 50%;
+    color: #999999;
+}
+.foot2{
+   width: 50%;
+}
+.foot button{
+    font-size: 26rpx;
+    height: 66rpx;
+    width: 238rpx;
+    line-height: 66rpx;
+    margin-top: 10rpx;
+    background:linear-gradient(90deg,rgba(26,165,145,1) 0%,rgba(21,202,176,1) 100%);
+    border-radius:10px;
+    color: #FFFFFF;
+}
+.foot button::after{
+    border: none;
+}

@@ -1,0 +1,39 @@
+.goodsShelves-order,
+.takeOut-order{
+     margin:40rpx 30rpx 0 30rpx;
+    background-color: #ffffff;
+    display: flex;
+    font-size: 26rpx;
+    line-height: 145rpx;
+    height: 145rpx;
+    padding:0 20rpx;
+}
+.icon-image1,
+.icon-image2{
+    width: 20%;
+    height: 145rpx;
+}
+.icon-image1 image{
+    width:29rpx;
+    height:31rpx;
+    margin-left: 35rpx;
+    margin-top: 60rpx;
+}
+.icon-image2 image{
+    width:41rpx;
+    height:30rpx;
+    margin-left: 29rpx;
+     margin-top: 60rpx;
+  
+}
+.order-text{
+    width: 40%;
+    height: 145rpx;
+    color: #333333;
+}
+.right{
+     width: 40%;
+    height: 145rpx;
+    text-align: right;
+    color: #999999;
+}
